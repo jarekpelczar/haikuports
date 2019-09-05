@@ -22,7 +22,7 @@ CHECKSUM_SHA256="0d44d06d18530d453d9b444732cea7f838543e323ebb00cde0323a5e7f13c17
 SOURCE_FILENAME="$portVersionedName.tar.gz"
 SOURCE_DIR="buildtools-$srcGitRev/jam"
 
-ARCHITECTURES="x86_gcc2 x86 x86_64 arm"
+ARCHITECTURES="x86_gcc2 x86 x86_64 arm arm64"
 
 PROVIDES="
 	jam = $portVersion
